@@ -8,7 +8,7 @@ import os
 # ------------------------------
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "heart_disease_model.pkl")
 
-with open(MODEL_PATH, "rb") as file:
+with open("heart_disease_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # ------------------------------
